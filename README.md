@@ -1,0 +1,1 @@
+This is a project for exercises for "Scala Impatient" Book
