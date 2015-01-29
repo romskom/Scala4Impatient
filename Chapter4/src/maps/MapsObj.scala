@@ -34,4 +34,10 @@ object MapsObj extends App {
   println(bobScore4)
   println(bobScore4.getClass)
 
+  val notBob = for((k,v) <- scores if (k != "Bob")) yield { k -> v }
+  println(notBob)
+
+  val scoresTree = scala.collection.immutable.SortedMap("Alice" -> 10, "Fred" -> 7, "Bob" -> 3, "Cindy" -> 8)
+  println(scoresTree)
+  println(scoresTree.getClass)
 }
