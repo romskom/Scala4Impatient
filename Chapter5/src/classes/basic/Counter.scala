@@ -7,8 +7,9 @@ class Counter {
 
   private var value = 0
 
-  def increment() { value += 1 }
+  def increment() { value += 1 } // метод mutator
 
-  def current()= value
+  def current = value  // метод accessor, объявляя метод без скобок, мы принуждаем пользователя не использовать скобки при вызове метода
 
 }
+
