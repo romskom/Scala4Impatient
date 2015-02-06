@@ -22,3 +22,10 @@ class CheckingAccount(initialBalance: Double, initialCommission :Double) extends
   override def toString() = "CheckingAccount[ id = " + id + ", balance = " + currentBalance + ", commission = " + commission +  "]"
 
 }
+
+object CheckingAccount {
+  def apply(initialBalance: Double, initialCommission :Double) = {
+    val account = new CheckingAccount(initialBalance, initialCommission)
+    account
+  }
+}

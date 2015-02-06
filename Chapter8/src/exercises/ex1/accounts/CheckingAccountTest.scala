@@ -13,4 +13,14 @@ object CheckingAccountTest extends App {
 
   checkingAccount.deposit(500)
   println(checkingAccount)
+
+  val checkingAccount1 = new CheckingAccount(1000, 1)
+  println(checkingAccount1)
+
+  checkingAccount1.withdraw(100)
+  println(checkingAccount1)
+
+  checkingAccount1.deposit(500)
+  println(checkingAccount1)
+
 }
