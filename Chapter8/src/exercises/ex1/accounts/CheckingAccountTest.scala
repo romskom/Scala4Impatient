@@ -5,7 +5,7 @@ package exercises.ex1.accounts
  */
 object CheckingAccountTest extends App {
 
-  val checkingAccount = new CheckingAccount(1000, 1)
+  private val checkingAccount = new CheckingAccount(1000, 1)
   println(checkingAccount)
 
   checkingAccount.withdraw(100)
