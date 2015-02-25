@@ -1,4 +1,4 @@
-package exercises
+package exercises.ex3
 
 /**
  * Created by rkomarov on 25.02.2015.
