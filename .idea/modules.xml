@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter7/Chapter7.iml" filepath="$PROJECT_DIR$/Chapter7/Chapter7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter8/Chapter8.iml" filepath="$PROJECT_DIR$/Chapter8/Chapter8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Experiments/Experiments.iml" filepath="$PROJECT_DIR$/Experiments/Experiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScalaCoans/ScalaCoans.iml" filepath="$PROJECT_DIR$/ScalaCoans/ScalaCoans.iml" />
     </modules>
   </component>
 </project>
